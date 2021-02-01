@@ -27,7 +27,7 @@ class Form {
       player.index = playerCount;
       player.update();
       player.updateCount(playerCount);
-      this.greeting.html("Hello " + player.name)
+      this.greeting.html("Hello " + player.name + ", the game shall start soon, waiting for more players. Call your friends!! C'mon, don't wait, share this link!!!! ")
       this.greeting.position(displayWidth / 2 - 70, displayHeight / 4);
     });
 
